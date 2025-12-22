@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+<Form><input type="text"></Form>
+    <form>
+        <div>
+            <label for="fname">First name :</label>
+            <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">Last name :</label>
+            <input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">password :</label>
+            <input type="password" maxlength="12" required id="pass" name="pass">
+        </div>
+        <br>
+        <div>
+            <label for="email">email : </label>
+            <input type="email" id="email" name="email" placeholder="spants@gmail.com">
+        </div>
+        <br>
+        <div>
+            <label for="dob">date of birth : </label>
+            <input type="date" name="dob" id="dob"></div>
+        <br>
+        <div>
+            <label for="quantity : "></label>
+            <input type="number" name="quantity" id="quantity" min="0" max="99" placeholder="1">
+        </div>
+        <br>
+
+        <div>
+            <label for="title">title :</label>
+
+            <label for="mr.">mr.</label>
+            <input type="radio" id="mr." name="title" value="mr.">
+
+
+            <label for="mrs.">mrs.</label>
+            <input type="radio" id="mrs." name="title" value="mrs">
+
+            <label for="phd.">phd.</label>        
+            <input type="radio" id="phd" name="title" value="pfd">
+</div>
+        <br>
+        <div><label for="payment"> payment : </label>
+            <select name="payment" id="payment">
+            <option value="cash">cash</option>
+            <option value="card">card</option>
+            <option value="upi">upi</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="follow">follow : </label>
+            <input type="checkbox" id="follow" name="follow">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>

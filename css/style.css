@@ -1,0 +1,18 @@
+body{
+    background-image: url(building.webp);
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+
+    background : linear-gradient(lightgreen rgb(104, 198, 230));
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+p{
+    background : linear-gradient( #a1d4e8,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
