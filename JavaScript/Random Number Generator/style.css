@@ -1,0 +1,13 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+}
+#mybutton{
+    padding: 10px 30px;
+    background-color: rgb(146, 144, 254);
+    font-size: 2em;
+    border-radius: 10px;
+}
+.labelz{
+     font-size: 3em;
+}
