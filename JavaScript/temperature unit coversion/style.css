@@ -24,3 +24,27 @@ form {
     border-radius: 4px;
     margin-bottom: 5px;
 }
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+margin-top: 5px;
+font-size: 1.5em;
+border-radius: 5px;
+padding: 5px 15px;
+color:rgb(255, 255, 255);
+cursor: pointer;
+font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(164, 164, 255);
+}
+
+#result{
+    font-size: x-large;
+    font-weight: bold;
+}
